@@ -1,0 +1,222 @@
+*{
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav{
+    width: 90%;
+    height: 74px;
+    background-color: #b6f8b611;
+    color: hsl(323, 86%, 67%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    margin-left: -10px;
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: bold;
+}
+ .menu{
+    width: 65%;
+    display: flex;
+    justify-content: right;
+    list-style: none;
+ }
+
+ .meni li{
+    margin-left: 30px;
+ }
+
+ .menu li a{
+    font-size: 19px;
+    color: hsl(323, 86%, 67%);
+    text-decoration: none;
+    
+ }
+
+ .menu li a:hover{
+    color: hsl(323, 86%, 67%);
+    }
+
+    .search{
+        display: flex;
+        align-items: center;
+        
+ }
+
+.search form{
+    display: flex;
+
+}
+
+.search input{
+    padding: 10px;
+    border: 1px hsl(323, 86%, 67%);
+    outline: none;
+    border-radius:  50px;
+    font-size: 16px;
+    
+
+}
+
+.search input:hover{
+    border: 10px solid #72a0d4;
+}
+
+.search button{
+    padding: 10px;
+    
+    border: none;
+    border-radius: 50px;
+    color: #333;
+    font-size: 19px;
+    cursor: pointer;
+    margin-left: -5px;
+    }
+
+    .search button:hover{
+        background-color: #ccc;
+    }
+
+    body{
+        background-image: url('pexels-quang-nguyen-vinh-222549-2166711.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 200vh;
+        margin: 0;
+        padding: 0;   
+        
+    
+    }
+
+    h1{
+        align-content: center;
+        margin-top: 200px;
+        align-items: center;
+        margin-left: 20%;
+        color: red;
+        font-family: cursive;
+         font-size: 4em;
+  letter-spacing: 10px;
+  font-family: monospace;
+  border-right: 5px soliod;
+  width: 70%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3s steps(31) , cursor .4s step-end infinite alternate;
+
+
+}
+/* cursor blinking */
+@keyframes cursor {
+  50% {border-color: transparent;}
+}
+/* typing effect */
+@keyframes typing {
+  from {width: 0;}
+}
+    
+
+    h2{
+        align-content: center;
+        margin-top: 50px;
+        align-items: center;
+        margin-left: 30%;
+        color: rgb(230, 255, 69);
+        font-family: cursive;
+
+    }
+
+   div button{
+        align-content: center;
+        margin-top: 30px;
+        align-items: center;
+        margin-left: 40%;
+        color: rgb(125, 80, 239);
+        font-family:serif (red serif) ;
+      cursor: pointer;
+      width: 90px;
+      height: 40px;
+    border: none;
+    animation: 2s reverse;
+    background-color: aqua;
+    font-size: medium;
+    
+    }
+
+    p{
+        align-content: center;
+        margin-top: 10px;
+        align-items: center;
+        margin-left: 40%;
+        color: rgb(230, 255, 69);
+        font-family: cursive;
+        margin-top: 50pxS;
+        
+
+    }
+
+    
+      .profile {
+        width: 100%;
+        margin: 10px auto;
+        text-align: center;
+        margin-top: -100px;
+        margin-left: -20%;
+        font-size: 30px;
+   
+      }
+.title{
+    color: rgb(255, 0, 0);
+    margin-top: 20%;
+    margin-left: 20%;
+    font-size: 2em;
+    letter-spacing: 10px;
+    font-family: monospace;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 5s steps(31) , cursor .4s step-end infinite alternate;
+}
+/* cursor blinking */
+@keyframes cursor {
+  100% {border-color: transparent;}
+}
+/* typing effect */
+@keyframes typing {
+  from {width: 0;}
+}
+
+    
+     
+    
+      .para{
+        align-items: center;
+        color: rgb(238, 223, 14);
+        font-size: 30px ;
+        margin-left: 20%;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
